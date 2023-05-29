@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata&family=Roboto+Mono:wght@200;400&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata&family=Roboto+Mono:wght@200;400&display=swap');
+*{
+font-family: 'Roboto Mono', monospace;
+}
+*::selection{
+  background-color: #005c478b;
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader > img {
+  width: 1000px;
+}
+.loader.hidden {
+  animation: fadeOut 7.5s;
+  animation-fill-mode: forwards;
+}
+
+body {
+  text-align: center;
+  background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+
+}
+
+ .rainbow-hover {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff7576;
+  background-color: #0f0f0f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  position: relative;
+  line-height: 24px;
+  border-radius: 9px;
+  box-shadow: 0px 1px 2px #400000,
+    0px 4px 16px #280000;
+  transform-style: preserve-3d;
+  transform: scale(var(--s, 1)) perspective(600px)
+    rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  perspective: 600px;
+  transition: transform 0.1s;
+}
+legend{
+  background: linear-gradient(
+    90deg,
+    #9090aa,
+    #ffe6fc,
+    #ffe5d5,
+    #fff3bf,
+    #b7ffe5
+  );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+fieldset{
+  border: #ffffff 1px solid;
+}
+
+.sp {
+  background: linear-gradient(
+      90deg,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.rainbow-hover:active {
+  transition: 0.3s;
+  transform: scale(1.93);
+}
+.sp:hover {
+  transition: transform 1.3s;
+  background: linear-gradient(
+      60deg,
+      #ff0000,
+    #f92121,
+     #e7706e,
+      #ff716c,
+      #ff7474
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+}
+
+ 
+textarea {
+  width: 300px;
+  height: 100px;
+  min-height: 250px;
+  background-color: #000;
+  overflow: scroll;
+  margin: auto;
+  display: flex;
+  background: #f4f4f9;
+  outline: none;
+  font-size: 14px;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 768px){
+  /* textarea{
+    display: flex;
+  } */
+  .container{
+    display: flex;
+  }
+  
+  .left, .right{
+    flex-basis: 50%;
+  }
+  textarea{
+    width: 600px;
+    height: 200px;
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+  } 
+   #code{
+    height:140vh;
+    padding: 0%;
+    margin: 0%;
+  }
+  form{
+    height:100vh;
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+.html{
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color:#fff;
+  font-size:25px;
+}
+
+
+
+.css{
+  background-color: #000;
+  color:#fff;
+  font-size:25px;
+}
+.js{
+  background-color: #000;
+  background-image: linear-gradient(top-left, color-stop1, color-stop2,);  
+  color:#fff;
+  font-size:25px;
+}
+
+iframe {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+ background-color:rgb(255, 255, 255);
+ height: 35em;
+}
+
+textarea[placeholder]{
+  background: linear-gradient(
+    60deg,
+    #9090aa,
+    #ffe6fc,
+    #ffe5d5,
+    #fff3bf,
+    #b7ffe5
+  );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
