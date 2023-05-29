@@ -1,10 +1,12 @@
 # Web Editor
 ## A Web-based editor for writing HTML, CSS, and JavaScript files.
-![](https://raw.githubusercontent.com/amilali/code_editor/main/web_editor/loder_1.gif)
-
-[Live demo](http://amilali.engineer/web_editor/index.html)
 <img width="939" alt="image" src="https://github.com/amilali/code_editor/assets/66510886/d1fa5435-eace-4c89-993f-580f8ffcf78d">
 
+# [Live demo](http://amilali.engineer/web_editor/index.html)
+
+
+
+![](https://raw.githubusercontent.com/amilali/code_editor/main/web_editor/loder_1.gif)
 
 **Features**
 - Syntax highlighting for HTML, CSS, and JavaScript
