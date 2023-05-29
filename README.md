@@ -15,10 +15,9 @@
 - Live preview of your code
 
 
-# Creator.md
+## Creator.md
 
-![](http://amilali.engineer/img/sig.png)
-
+<img src="http://amilali.engineer/img/sig.png" width="200px" height="200px">
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 
