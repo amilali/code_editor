@@ -1,1 +1,36 @@
-
+<html>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="/img/20220128_114911.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div class="loader" id="loader">   
+    <img src="/web_editor/loder_1.gif"  alt="Loading..." />
+</div>
+  <body>
+    <button data-label="Register" class="rainbow-hover" onClick="window.location.reload();">
+      <span class="sp" >Reset</span>
+    </button>
+    <div class="container">
+      <div class="left">
+    <form>
+    <fieldset>
+    <legend>Write Your &lt; Code &gt; here!</legend>
+    <textarea id="html" placeholder="HTML" class="html"></textarea>
+    <textarea id="css" placeholder="CSS" class="css"></textarea>
+    <textarea id="js" placeholder="JavaScript" class="js"></textarea>
+    
+  </fieldset>
+  </form>
+</div>
+<div class="right">
+  <fieldset>
+    <legend>Output</legend>
+    <iframe id="code"></iframe>
+  </fieldset>
+</div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
