@@ -171,12 +171,14 @@ textarea {
   background-color: #000;
   color:#fff;
   font-size:25px;
+  position: relative;
 }
 .js{
   background-color: #000;
   background-image: linear-gradient(top-left, color-stop1, color-stop2,);  
   color:#fff;
   font-size:25px;
+  position: relative;
 }
 
 iframe {
@@ -201,3 +203,9 @@ textarea[placeholder]{
 background-clip: text;
 }
 
+.copy{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+}
