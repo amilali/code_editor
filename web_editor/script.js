@@ -35,3 +35,15 @@ function compile() {
   
   compile();
 
+const btnCopy = document.querySelectorAll('.copy')
+
+function copyCode(e){
+  const copyText = document.getElementById(e.target.dataset.code);
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  navigator.clipboard.writeText(copyText.value);
+}
+
+btnCopy.forEach(btn => btn.addEventListener('click', copyCode))
