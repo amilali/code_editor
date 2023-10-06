@@ -3,6 +3,7 @@
 *{
 font-family: 'Roboto Mono', monospace;
 }
+
 *::selection{
   background-color: #005c478b;
   margin: 0%;
@@ -116,7 +117,7 @@ textarea {
   height: 100px;
   min-height: 250px;
   background-color: #000;
-  overflow: scroll;
+  overflow: scroll !important;
   margin: auto;
   display: flex;
   background: #f4f4f9;
@@ -190,17 +191,7 @@ iframe {
 }
 
 textarea[placeholder]{
-  background: linear-gradient(
-    60deg,
-    #9090aa,
-    #ffe6fc,
-    #ffe5d5,
-    #fff3bf,
-    #b7ffe5
-  );
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+  background: #00000000;
 }
 
 .copy{
