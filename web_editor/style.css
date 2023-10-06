@@ -191,7 +191,7 @@ iframe {
 }
 
 textarea[placeholder]{
-  background: #000;
+  background: #00000000;
 }
 
 .copy{
